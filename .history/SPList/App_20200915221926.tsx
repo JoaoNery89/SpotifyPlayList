@@ -8,13 +8,13 @@ const App = () => {
     <>
       <StatusBar barStyle='default'/>
       <View style={{flex:1}}>
-        <View style={{backgroundColor:'#1DB954', padding: 10}}>
-          <Text style={{fontSize:18, fontWeight:'bold', alignSelf:'center', color:'white'}}>
+        <View style={{flex:0, backgroundColor:'Green', alignSelf:"center"}}>
+          <Text style={{fontSize:18, fontWeight:"bold"}}>
             Minha Playlist
           </Text>
         </View>
-        <ScrollView style={{flex:1, backgroundColor:'white'}}>
-          <View style={{flex:1, alignSelf:'center'}}>
+        <ScrollView style={{flex:1, backgroundColor:'red'}}>
+          <View style={{flex: 1, alignSelf: 'center', backgroundColor:'black'}}>
             <Text>
               Lista
             </Text>

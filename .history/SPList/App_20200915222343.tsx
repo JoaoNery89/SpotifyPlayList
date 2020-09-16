@@ -13,7 +13,7 @@ const App = () => {
             Minha Playlist
           </Text>
         </View>
-        <ScrollView style={{flex:1, backgroundColor:'white'}}>
+        <ScrollView style={{flex:1, backgroundColor:'red'}}>
           <View style={{flex:1, alignSelf:'center'}}>
             <Text>
               Lista
